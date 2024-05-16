@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+display: flex;
+justify-content: space-around;
+max-width: 100%;
+align-items: center;
+text-align: center;
+padding-top: 1rem;
+}
+
+.cabeçalho-link{ 
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabeçalho-link a {
+color:white;
+font-size: 12px;
+}
+
+.cabeçalho-link a:hover{
+    color: #000042;
+    transition: 0.3s all;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #000042;
+    color: #000042;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button{
+    color: #000042;
+    background: transparent;
+    border: solid 1px #000042;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #000042;
+    color: white;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px 0px 0px 130px;
+}
+
+.text h3{
+    color: white;
+    font-size: 15px;
+}
+
+.text h1{
+    color: white;
+    margin-top: 10px;
+}
+
+.text span{
+    color: #000042;
+}
+
+.text p{
+    color: white;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-sociais a{
+    color: #000042;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 10px;
+}

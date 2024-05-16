@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="Form.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="campo">
+        <h1 id="titulo">Cadastro para contato</h1>
+        <p id subtitulo>Complete suas informações</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="Sobrenome" id="Sobrenome" required>
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+        <div class="campo"> 
+            <label><strong>Qual o seu gênero?</strong></label>
+           <label><input type="radio" name="devgen" value="Feminino">Feminino</label>
+           <label>
+            <input type="radio" name="devgen" value="Masculino">Masculino
+           </label> 
+           <label>
+            <input type="radio" name="devgen" value="Outro">Outro
+           </label>
+           </div>
+           <div class="campo">
+            <label><strong>Idade</strong></label>
+            <select id="Idade">
+                <option selected disabled value="">Selecione</option>
+            <option>10 a 20</option>
+            <option>20 a 30</option>
+            <option>30 a 40</option>
+            <option>Outra</option>
+        </select>
+           </div>
+        </div>
+        <fieldset class="grupo"> 
+            <div id="check">
+                <label><strong>Selecione as tecnologias que utiliza</strong></label><br><br>
+                <input type="checkbox" id="Tec 1" name="Tec 1" value="HTML">
+                <label for="Tec 1">HTML</label>
+                <input type="checkbox" id="Tec 2" name="Tec 2" value="CSS">
+                <label for="Tec 2">CSS</label>
+                <input type="checkbox" id="Tec 3" name="Tec 3" value="JavaScript">
+                <label for="Tec 3">JavaScript</label>
+                <input type="checkbox" id="Tec 4" name="Tec 4" value="PHP">
+                <label for="Tec 4">PHP</label>
+                <input type="checkbox" id="Tec 5" name="Tec 5" value="C#">
+                <label for="Tec 5">C#</label>
+                <input type="checkbox" id="Tec 6" name="Tec 6" value="Python">
+                <label for="Tec 6">HTML</label>
+                <input type="checkbox" id="Tec 7" name="Tec 7" value="Java">
+                <label for="Tec 7">Java</label>
+            </div>
+        </fieldset>
+        <div class="campo"> 
+            <br>
+            <label><strong>Conte sobre sua expêriencia</strong></label>
+            <textarea rows="6" style="width: 26 em" id="expêriencia" name="expêriencia">
+            </textarea>
+        </div>
+        <button type="submit"><strong>Concluído</strong></button>
+    </form>
+</body>
+</html>
